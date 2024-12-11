@@ -16,7 +16,7 @@ This project demonstrates a phishing attack simulation for educational purposes.
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/Shrinkhal01/Phishing-Simulation-Training.git
+    git clone https://github.com/lbx554/Phishing-Simulation.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -38,14 +38,9 @@ This project demonstrates a phishing attack simulation for educational purposes.
 ## File Descriptions
 
 - **`server.js`**: Contains the server logic for handling form submissions and redirection. The server listens on port 3000.
-- **`sdanlknjsaflndasf.html`**: Displays a fake HTTP 500 error page with a reload button.
+- **`fake-error.html`**: Displays a fake HTTP 500 error page with a reload button.
 - **`index.html`**: The main login page with input fields for username and password, along with a CAPTCHA simulation.
 - **`styles.css`**: Contains styles for the login page and error page, including layout and design specifications.
-- **`login-success.html`**: Displays a success message after the login attempt.
-
-
-
-**Note:** This project was tested on macOS 14.6.1.
 
 ### Step-by-Step Description
 ## User Accesses the Login Page:
@@ -85,26 +80,5 @@ This project demonstrates a phishing attack simulation for educational purposes.
 
 - Once the reload count reaches the specified limit, the server redirects the user to the actual login site (https://student.geu.ac.in/), making the process appear legitimate.
 
-## License
-
-This project is intended for educational purposes only. Use responsibly and do not deploy or use for malicious activities.
-
-## Contributing
-
-If you'd like to contribute to this project, please submit a pull request or open an issue for discussion.
-
-## Contact
-
-For any questions or feedback, please reach out to [shrinkhalshrinkhal22@gmail.com](mailto:shrinkhalshrinkhal22@gmail.com).
-
-## IMPORTANT NOTE :
-
-By using this repository, you agree to the following terms:
-
-- You will only use this project for lawful purposes and educational use.
-- You will not deploy or use any part of this project to conduct phishing attacks or other malicious activities.
-- The creator of this repository shall not be held responsible for any misuse or illegal activities carried out using the contents of this project.
-- You acknowledge that any illegal activity or misuse of this content is solely the responsibility of the individual committing such actions.
-
-Please ensure compliance with all applicable laws and regulations when using or modifying this content.
-
+## Notice:
+- This project was edited from (https://github.com/jenyraval/Phishing-Simulation/tree/master) to conduct phishing exercise on a fake Amazon website.
