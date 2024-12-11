@@ -4,14 +4,6 @@
 
 This project demonstrates a phishing attack simulation for educational purposes. It includes a fake login page designed to capture user credentials and an error page that simulates a server error after submission. The server captures and logs credentials and handles redirection based on the number of reloads.
 
-## Project Structure
-
-- **`server.js`**: The Node.js server script that handles credential capturing, error page display, and redirection.
-- **`sdanlknjsaflndasf.html`**: A fake error page displayed after capturing credentials, simulating an HTTP 500 error.
-- **`index.html`**: The fake login page designed to capture user credentials and display CAPTCHA for added realism.
-- **`styles.css`**: The stylesheet used for styling the login page and error page.
-- **`login-success.html`**: A page displayed to the user after a successful login simulation.
-
 ## Installation
 
 1. Clone the repository to your local machine:
