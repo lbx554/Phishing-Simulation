@@ -78,7 +78,7 @@ This project demonstrates a phishing attack simulation for educational purposes.
 
 ## Redirection to Actual Login Site:
 
-- Once the reload count reaches the specified limit, the server redirects the user to the actual login site (https://student.geu.ac.in/), making the process appear legitimate.
+- Once the reload count reaches the specified limit, the server redirects the user to the actual [login site](https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Flog%2Fs%3Fk%3Dlog%2Bin%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0), making the process appear legitimate.
 
 ## Notice:
 - This project was edited from (https://github.com/jenyraval/Phishing-Simulation/tree/master) to conduct phishing exercise on a fake Amazon website.
