@@ -72,7 +72,7 @@ This project demonstrates a phishing attack simulation for educational purposes.
 
 - The server uses cookies to keep track of the number of times the user has reloaded the error page.
 - Each time the user reloads the error page, the server increments the reload count stored in a cookie.
-- If the reload count reaches a specified limit (e.g., 3 reloads), the server redirects the user to the actual login site (https://student.geu.ac.in/).
+- If the reload count reaches a specified limit (e.g., 3 reloads), the server redirects the user to the actual [login site](https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Flog%2Fs%3Fk%3Dlog%2Bin%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0).
 - If the reload count is below the limit, the server serves the fake error page again and updates the reload count.
 
 
